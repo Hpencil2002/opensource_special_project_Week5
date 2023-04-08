@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id = "@+id/iconLayout"
+        android:layout_width = "fill_parent"
+        android:layout_height = "0dip"
+        android:layout_weight = "1"
+        android:gravity = "center">
+
+        <ImageButton
+            android:id = "@+id/ibZoomIn"
+            android:src = "@drawable/zoom_in"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"/>
+        <ImageButton
+            android:id = "@+id/ibZoomOut"
+            android:src = "@drawable/zoom_out"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"/>
+        <ImageButton
+            android:id = "@+id/ibRotate"
+            android:src = "@drawable/rotate"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content" />
+        <ImageButton
+            android:id = "@+id/ibBright"
+            android:src = "@drawable/lighter"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"/>
+        <ImageButton
+            android:id = "@+id/ibDark"
+            android:src = "@drawable/darker"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"/>
+        <ImageButton
+            android:id = "@+id/ibGray"
+            android:src = "@drawable/gray"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "2021041035 조민규"
+        android:gravity = "center"
+        android:textColor = "#0000ff" />
+
+    <LinearLayout
+        android:id = "@+id/pictureLayout"
+        android:layout_width = "fill_parent"
+        android:layout_height = "0dip"
+        android:layout_weight = "9"
+        android:gravity = "center" >
+    </LinearLayout>
+
+</LinearLayout>
